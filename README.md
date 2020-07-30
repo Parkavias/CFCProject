@@ -7,9 +7,9 @@
 1. [Short description](#short-description)
 2. [The architecture](#the-architecture)
 3. [Long description](#long-description)
-4. [Project roadmap](#project-roadmap)
-5.[Working Model](#working-model)
-5.[Voicebot output](#Output)
+4. [Project roadmap](#project-roadmap)<br/>
+5.[Model](#model)<br/>
+5.[Voicebot output](#Output)<br/>
 6. [Built with](#built-with)
 
 
@@ -45,7 +45,7 @@ To overcome all these problem, we are going to configure a chatbot in IBM Cloud 
 During the global pandemic Covid-19,It has become critical for pregnant ladies and common man seeking medical help to find hospitals for general health issues.People who are new to a location or stuck at different places find it very difficult to find the directions to hospitals from their locations. So we thought of designing a chat bot that can address this issue. Our chatbot will help the users find the symptoms of some common health issue and other related problems. With the help of chatbot we will also be providing the first aid that can be done for their problem and the general medicines as well. If the user wants to reach hospital we will help them in finding the nearest hospitals and we will also guide them with the route for the hospital they choose. We have also added separate flows to help the Pregnant ladies and parents find a find hospital . To accomplish this we used the Watson Assistant to design the chatbot flow.  We made use of the HERE API’s to get the nearest hospital details and routing details. 
 
 ##Working Model
-![Working Model](Workingmodel.png)
+![model](workingmodel.png)
 
 
 ## Project roadmap
