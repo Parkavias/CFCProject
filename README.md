@@ -9,8 +9,8 @@
 3. [Long description](#long-description)
 4. [Project roadmap](#project-roadmap)<br/>
 5.[Model](#model)<br/>
-5.[Voicebot output](#Output)<br/>
-6. [Built with](#built-with)
+6.[Voicebot output](#Output)<br/>
+7. [Built with](#built-with)
 
 
 ## Short description
