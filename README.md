@@ -57,7 +57,7 @@ https://github.com/Parkavias/CrisisBot.git
 
 ## Built with
 
-* [IBM Watson Assistant(https://https://cloud.ibm.com/catalog?search=watson%20assistant#search_results) - It lets you build conversational interfaces into any application, device , or channel.
+* [IBM Watson Assistant](https://https://cloud.ibm.com/catalog?search=watson%20assistant#search_results) - It lets you build conversational interfaces into any application, device , or channel.
 * [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
 
 

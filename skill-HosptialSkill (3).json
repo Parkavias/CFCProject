@@ -1,0 +1,3102 @@
+{
+  "intents": [
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Sore Throat"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Pediatric_Problems",
+      "examples": [
+        {
+          "text": "Pediatric Problems"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Landmark",
+      "examples": [
+        {
+          "text": "Napier Bridge"
+        },
+        {
+          "text": "Madras High Court Building"
+        },
+        {
+          "text": "Valluvar Kottam"
+        },
+        {
+          "text": "Spencer Plaza"
+        },
+        {
+          "text": "MGR Memorial"
+        },
+        {
+          "text": "Anna Memorial"
+        },
+        {
+          "text": "LIC Building"
+        },
+        {
+          "text": "Fort St.George"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Pregnancy_Problems",
+      "examples": [
+        {
+          "text": "Pregnancy Problems"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Illness",
+      "examples": [
+        {
+          "text": "Stroke"
+        },
+        {
+          "text": "Are you having temperature below 98 degree celsius"
+        },
+        {
+          "text": "Are you having cold?"
+        },
+        {
+          "text": "Diabetes"
+        },
+        {
+          "text": "Flu"
+        },
+        {
+          "text": "General Illness"
+        },
+        {
+          "text": "Fever"
+        },
+        {
+          "text": "Pneumonia"
+        },
+        {
+          "text": "Cardiovascular Disease"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "Hospitalname",
+      "examples": [
+        {
+          "text": "name"
+        },
+        {
+          "text": "Ortho"
+        },
+        {
+          "text": "Cardiac"
+        },
+        {
+          "text": "Hospitalname"
+        },
+        {
+          "text": "E. V. R. Periyar Salai (General Hospital Road)"
+        },
+        {
+          "text": "Maaya Revive Cosmetic Gynecology"
+        },
+        {
+          "text": "Hospital"
+        },
+        {
+          "text": "Kilpauk"
+        },
+        {
+          "text": "Radha Child Hospital"
+        },
+        {
+          "text": "Sai Child Hospital"
+        },
+        {
+          "text": "Yashoda Child Hospital"
+        },
+        {
+          "text": "Sanjeevi Child Hospital"
+        },
+        {
+          "text": "Apollo Hospital"
+        },
+        {
+          "text": "Well Woman Gynecology Clinic"
+        },
+        {
+          "text": "Naval Hospital Road"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "HospitalLocation",
+      "examples": [
+        {
+          "text": "Karnataka"
+        },
+        {
+          "text": "Egmore"
+        },
+        {
+          "text": "Chennai"
+        },
+        {
+          "text": "Delhi"
+        },
+        {
+          "text": "Coimbatore"
+        },
+        {
+          "text": "Gujarat"
+        },
+        {
+          "text": "Kerala"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Thanks"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        }
+      ],
+      "description": "Request a human agent."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Pediatric_Problems",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pediatric Problems",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Hospitalname",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kilpauk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Radha Child Hospital",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maaya Revive Cosmetic Gynecology",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sai Child Hospital",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Naval Hospital Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Well Woman Gynecology Clinic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yashoda Child Hospital",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apollo Hospital",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sanjeevi Child Hospital",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E. V. R. Periyar Salai (General Hospital Road)",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Pregnancy_Problems",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pregnancy Problems",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "HospitalLocation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Madurai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Egmore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kerala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Banglore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chennai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Coimbatore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gujarat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bengaluru",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "types_of_diseases",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pregnancy problems",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pediatric Problems",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cardiac Arrest",
+          "synonyms": [
+            "cardiac arrhythmia",
+            "ventricular fibrillation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cold",
+          "synonyms": [
+            "chilly",
+            "freezing",
+            "chill",
+            "cool",
+            "winter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Diabetes",
+          "synonyms": [
+            "diabetic",
+            "hypertension",
+            "obesity",
+            "prediabetes",
+            "osteoporosis",
+            "disease",
+            "cholesterol",
+            "hypoglycemia",
+            "hyperglycemia",
+            "cardiovascular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Flu",
+          "synonyms": [
+            "influenza",
+            "avian",
+            "swine",
+            "pandemic",
+            "measles",
+            "vaccine",
+            "sars",
+            "chickenpox",
+            "virus",
+            "outbreak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pneumonia",
+          "synonyms": [
+            "pneumonitis",
+            "bronchopneumonia",
+            "meningitis",
+            "bronchitis",
+            "pneumonias",
+            "septicemia",
+            "gastroenteritis",
+            "infection",
+            "septicaemia",
+            "bronchiolitis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Stroke",
+          "synonyms": [
+            "strokes",
+            "attack",
+            "ejection"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fever",
+          "synonyms": [
+            "febrile",
+            "fevers",
+            "diarrhea",
+            "plague",
+            "craze",
+            "heat",
+            "hot",
+            "foot",
+            "dysentery",
+            "headache"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "types_of_medicines",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Diabetes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cardiac Arrest",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cold",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pneumonia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stroke",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flu",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Fort St.George",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madras High Court Building",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Napier Bridge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spencer Plaza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIC Building",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anna Memorial",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MGR Memorial",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valluvar Kottam",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Route",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dont",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Proceed",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.appdomain.cloud/api/v1/web/Parkavi.AS%40cognizant.com_dev/default/Routes.json",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "$HospitalLocation"
+        },
+        {
+          "name": "Accept",
+          "value": "$Pregnancy_Problems"
+        },
+        {
+          "name": "Accept",
+          "value": "$Pediatric_Problems"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594118801536",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1594118801619",
+      "previous_sibling": "handler_4_1594118801619"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594118801536",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594118801619"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1592834228696",
+      "conditions": "",
+      "dialog_node": "response_8_1593602838045",
+      "previous_sibling": "response_5_1593602836272"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1592834228696",
+      "variable": "$HospitalLocation",
+      "dialog_node": "slot_4_1593602686274",
+      "previous_sibling": "slot_1_1592835185423"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1592834228696",
+      "variable": "$Landmark",
+      "dialog_node": "slot_2_1595848111363",
+      "previous_sibling": "slot_6_1595342809703"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1592834228696",
+      "variable": "$Route",
+      "dialog_node": "slot_3_1595941042025",
+      "previous_sibling": "slot_2_1595848111363"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1592834228696",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_1_1592835185423",
+      "previous_sibling": "response_8_1593602838045"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1592834228696",
+      "variable": "$Hospitalname",
+      "dialog_node": "slot_6_1595342809703",
+      "previous_sibling": "slot_4_1593602686274"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The answer  is wrong"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1592834228696",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1593602836272",
+      "previous_sibling": "response_10_1593602831574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The hospitals in $HospitalLocation that treat $types_of_diseases  are: $webhook_result_1.message  <br/> Can I display the <h2><u>directions</u></h2> of the hospital you choose? Say \"Proceed\" or \"Dont\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1592834228696",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_10_1593602831574"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1595941130320",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595941130327",
+      "previous_sibling": "handler_2_1595941130327"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1595941130320",
+      "context": {
+        "Hospitalname": "@Hospitalname"
+      },
+      "conditions": "@Hospitalname",
+      "event_name": "input",
+      "dialog_node": "handler_2_1595941130327"
+    },
+    {
+      "type": "standard",
+      "title": "Types_Of_Medicines",
+      "parent": "node_9_1593932892291",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@types_of_medicines",
+      "dialog_node": "node_9_1593933440684"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1594118378815",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1594118378821",
+      "previous_sibling": "handler_2_1594118378821"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1594118378815",
+      "context": {
+        "HospitalLocation": "@HospitalLocation"
+      },
+      "conditions": "@HospitalLocation",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594118378821"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1594027704380",
+      "variable": "$Hospitalname",
+      "dialog_node": "slot_9_1595847746375",
+      "previous_sibling": "slot_10_1594118378815"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1594027704380",
+      "variable": "$Route",
+      "dialog_node": "slot_10_1595940976231",
+      "previous_sibling": "slot_1_1595847782684"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1594027704380",
+      "variable": "$HospitalLocation",
+      "dialog_node": "slot_10_1594118378815",
+      "previous_sibling": "slot_7_1594118332496"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1594027704380",
+      "variable": "$Landmark",
+      "dialog_node": "slot_1_1595847782684",
+      "previous_sibling": "slot_9_1595847746375"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1594027704380",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_7_1594118332496",
+      "previous_sibling": "response_1_1595423966864"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1594027704380",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1595423966864",
+      "previous_sibling": "response_9_1595423965248"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The hospitals in $HospitalLocation that treat $types_of_diseases  are: $webhook_result_2.message  <br/>Can I display the <h2><u>directions</u></h2> of the hospital you choose?    Say \"Proceed\" or \"Dont\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1594027704380",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_9_1595423965248"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592835185423",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1592835185439",
+      "previous_sibling": "handler_1_1592835185439"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592835185423",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592835185439"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\tLevofloxacin</br> \tClarithromycin</br> \tLevaquin</br><h2> What is your current<u>Location</u></h2>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593933440684",
+      "conditions": "@types_of_medicines:Pneumonia",
+      "dialog_node": "response_9_1593946487950",
+      "previous_sibling": "response_2_1593946251296"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " •\tTamiflu •\toseltamivir •\tCoricidin HBP Cold & Flu <h2> What is your current<u>Location</u></h2>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593933440684",
+      "conditions": "@types_of_medicines:Flu",
+      "dialog_node": "response_1_1593933540900",
+      "previous_sibling": "response_1_1593933493523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\tMetformin</br> \tJanuvia</br> \tVictoza</br> \tGlimepiride</br><h2> What is your current<u>Location</u></h2>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593933440684",
+      "conditions": "@types_of_medicines:Diabetes",
+      "dialog_node": "response_2_1593946513649",
+      "previous_sibling": "response_9_1593946487950"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "o\tBenadryl<br/> o\tDiphenhydramine</br><h2> What is your current<u>Location</u></h2>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593933440684",
+      "conditions": "@types_of_medicines:cold",
+      "dialog_node": "response_1_1593946248019",
+      "previous_sibling": "response_1_1593933540900"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "o\tPlavix</br> o\tClopidogrel<br/><h2> What is your current<u>Location</u></h2>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593933440684",
+      "conditions": "@types_of_medicines:Stroke",
+      "dialog_node": "response_2_1593946251296",
+      "previous_sibling": "response_1_1593946248019"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "•\tParacetamol<br/> •\tAcetaminophen<br/> •\tTylenol<br/> •\tIbuprofen<br/>  <h2> What is your current<u>Location</u></h2>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593933440684",
+      "conditions": "@types_of_medicines:Fever",
+      "dialog_node": "response_1_1593933493523"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595847929786",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1595847929797",
+      "previous_sibling": "handler_3_1595847929797"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595847929786",
+      "context": {
+        "Landmark": "@Landmark"
+      },
+      "conditions": "@Landmark",
+      "event_name": "input",
+      "dialog_node": "handler_3_1595847929797"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1595847782684",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595847782698",
+      "previous_sibling": "handler_9_1595847782698"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1595847782684",
+      "context": {
+        "Landmark": "@Landmark"
+      },
+      "conditions": "@Landmark",
+      "event_name": "input",
+      "dialog_node": "handler_9_1595847782698"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1594019436309",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594019436346",
+      "previous_sibling": "handler_4_1594019436346"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1594019436309",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594019436346"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1595938195279",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595938195291",
+      "previous_sibling": "handler_6_1595938195291"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1595938195279",
+      "context": {
+        "Route": "@Route"
+      },
+      "conditions": "@Route",
+      "event_name": "input",
+      "dialog_node": "handler_6_1595938195291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595938136206",
+      "disabled": true,
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_5_1595938193766",
+      "previous_sibling": "slot_8_1595938195279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1595938136206",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1595938198106",
+      "previous_sibling": "response_5_1595938193766"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1595938136206",
+      "variable": "$Route",
+      "dialog_node": "slot_8_1595938195279"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594118332496",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1594118332552",
+      "previous_sibling": "handler_2_1594118332552"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594118332496",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594118332552"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms are</br>  •\tfeeling of pressure or tightness, </br>•\tcrushing pain or unusual discomfort in the centre of the chest ,</br> •\tsome feel their arms feel heavy or useless,breathelessness,dizzy feeling.  </br>The first aid are  <br/>•\tStart CPR.</br> CPR involves mouth-to-mouth breathing and external heart massage through the chest. <br/><h3>Can I let you know for what illness I can prescribe you some <u>general medicines?</u></h3><br/> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:(Cardiac Arrest)",
+      "dialog_node": "response_10_1592631123965",
+      "previous_sibling": "node_9_1593932892291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms are</br>  •\trunny nose<br/> •\tstuffy nose<br/>•\tsneezing<br/>•\twatery nasal secretions<br/>•\tloss of smell or taste.  </br>The first aid are:</br>  •\tsaline drops for congested nose<br/> •\tgentle suction of nasal mucus using a bulb syringe when necessary<br/> •\tnever give cough or cold medicine to children under 6 years old.<br/> <h3 >Can I let you know for what illness I can prescribe you some <u>general medicines?</u></h3><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:cold",
+      "dialog_node": "response_6_1592631194148",
+      "previous_sibling": "response_6_1592631169629"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms are<br/>  •\trapid and weak breathing<br/> •\theadache <br/>•\tpale,clammy skin<br/> •\tfast pulse <br/>•\tthe person may appear intoxicated <br/> The first aid are <br/> •\tput a glucose source in your first aid kit</br>  •\tGive them something sweet to eat or a non-diet drink</br><h3>Can I let you know for what illness I can prescribe you some <u>general medicines?</u></h3><br/> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:Diabetes",
+      "dialog_node": "response_10_1592631144111",
+      "previous_sibling": "response_10_1592631123965"
+    },
+    {
+      "type": "standard",
+      "title": "YesResponse",
+      "output": {
+        "generic": [
+          {
+            "title": "I can prescribe you general medicines for the below listed illness. Please select any one:",
+            "options": [
+              {
+                "label": "Fever",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Flu",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Cardiac Arrest",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Diabetes",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Pneumonia",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Stroke",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "cold",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "#Yes",
+      "dialog_node": "node_9_1593932892291",
+      "previous_sibling": "slot_9_1595422718592"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms for $types_of_diseases are:<br/>  •\tFever over 100.4 F<br/> •\taching muscles<br/> •\tchills and sweats<br/> •\theadache<br/> •\tdry persistent cough<br/>  •\tfatigue and weakness<br/> •\tnasal congestion<br/> •\tsore throat. <br/> The first aid are  <br/>•\ta cool-mist humidifier<br/>  •\tsaline (saltwater) nose drops<br/>  •\trest the kid as llonger as possible<br/> •\tkeep hydrated with plenty of liquids.<br/> <h3>Can I let you know for what illness I can prescribe you some <u>general medicines?</u></h3><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:Flu",
+      "dialog_node": "response_6_1592648106921",
+      "previous_sibling": "response_4_1592631226032"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The main symptoms are: <br/>•\tParalysis or numbness or inability to move parts of the face, arm, or leg - particularly on one side of the body<br/> •\tConfusion- including trouble with speaking <br/>•\tHeadache with vomiting<br/> •\tTrouble seeing in one or both eyes<br/> •\tMetallic taste in mouth<br/> •\tDifficulty in swallowing<br/> •\tTrouble in walking (impaired coordination) <br/>•\tDystonia <br/>•\tAlexia <br/>•\tAgnosia  <br/>The first aid are <br/>•\tIf you’re caring for someone else having a stroke, make sure they’re in a safe, comfortable position. <br/>Preferably, this should be lying on one side with their head slightly raised and supported in case they vomit.<br/> •\tCheck to see if they’re breathing. If they’re not breathing, perform CPR.<br/> If they’re having difficulty breathing, loosen any constrictive clothing, such as a tie or scarf.<br/> •\tTalk in a calm, reassuring manner.<br/> •\tCover them with a blanket to keep them warm.<br/> •\tDon’t give them anything to eat or drink. <br/>•\tIf the person is showing any weakness in a limb, avoid moving them. <br/>•\tObserve the person carefully for any change in condition. <br/>Be prepared to tell the emergency operator about their symptoms and when they started. <br/>Be sure to mention if the person fell or hit their head.<br/><h3>Can I let you know for what illness I can prescribe you some<u> general medicines?</u></h3><br/> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:Stroke",
+      "dialog_node": "response_6_1592631169629",
+      "previous_sibling": "response_10_1592631144111"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms are  <br/>•\twarm to the touch<br/> •\tflushed<br/> •\tsweaty<br/> •\tfussy<br/> •\tuncomfortable.<br/> The first aid are :<br/>  •\tGive medicines based on doctor recommendations<br/>  •\tnever use rubbing alcohol or cold baths to bring the fever down<br/> •\tcover yourself with a light sheet or blanket.<br/> <h3>Can I let you know for what illness I can prescribe you some <u>general medicines?</u></h3><br/> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:Fever",
+      "dialog_node": "response_4_1592631226032",
+      "previous_sibling": "response_6_1592631194148"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms are<br/>  •\tfast,difficult breathing<br/> •\tchest pains<br/>•\tcough<br/> •\tfever<br/> •\tloss of appetite<br/> •\tnausea or vomitting.<br/>  The first aid are<br/>  •\tavoid exposure to tobacco smoke or other irritants in the air<br/> •\thave plenty of fluids to avoid dehydration<br/> •\tcontrol the fever with proper medicine.<br> <h3>Can I let you know for what illness I can prescribe you some general medicines?</u></h3><br/> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592630930841",
+      "conditions": "@types_of_diseases:Pneumonia",
+      "dialog_node": "response_4_1592648121785",
+      "previous_sibling": "response_6_1592648106921"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1592630930841",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_9_1595422718592"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595941150056",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1595941150062",
+      "previous_sibling": "handler_8_1595941150062"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595941150056",
+      "context": {
+        "Route": "@Route"
+      },
+      "conditions": "@Route",
+      "event_name": "input",
+      "dialog_node": "handler_8_1595941150062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595768741037",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_3_1595768827270",
+      "previous_sibling": "slot_4_1595769221154"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1595768741037",
+      "variable": "$Hospitalname",
+      "dialog_node": "slot_4_1595769221154"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1594118848246",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594118848254",
+      "previous_sibling": "handler_8_1594118848254"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1594118848246",
+      "context": {
+        "HospitalLocation": "@HospitalLocation"
+      },
+      "conditions": "@HospitalLocation",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594118848254"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595847746375",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1595847746382",
+      "previous_sibling": "handler_4_1595847746382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595847746375",
+      "context": {
+        "Hospitalname": "@Hospitalname"
+      },
+      "conditions": "@Hospitalname",
+      "event_name": "input",
+      "dialog_node": "handler_4_1595847746382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1593602097998",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1593602098010",
+      "previous_sibling": "handler_7_1593602098010"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1593602097998",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_7_1593602098010"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1595941105200",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1595941105206",
+      "previous_sibling": "handler_3_1595941105206"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1595941105200",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_3_1595941105206"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1595342809703",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595342809710",
+      "previous_sibling": "handler_10_1595342809710"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1595342809703",
+      "context": {
+        "Hospitalname": "@Hospitalname"
+      },
+      "conditions": "@Hospitalname",
+      "event_name": "input",
+      "dialog_node": "handler_10_1595342809710"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please let me know your <h2><u> current location </u></h2>, so that I can find you hospitals near you for $types_of_diseases"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593951178026",
+      "dialog_node": "response_5_1594022175024",
+      "previous_sibling": "node_4_1594027704380"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1593951178026",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_5_1594018321134",
+      "previous_sibling": "response_7_1594029551754"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_10_1593951178026",
+      "conditions": "",
+      "dialog_node": "response_7_1594029551754",
+      "previous_sibling": "response_1_1594029550353"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_10_1593951178026",
+      "conditions": "",
+      "dialog_node": "response_1_1594029550353",
+      "previous_sibling": "response_5_1594022175024"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1593951178026",
+      "variable": "$HospitalLocation",
+      "dialog_node": "slot_7_1595419541087",
+      "previous_sibling": "slot_5_1594018321134"
+    },
+    {
+      "type": "frame",
+      "title": "GynacHospitalLocation",
+      "parent": "node_10_1593951178026",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "route": "$Route",
+            "diseases": "$types_of_diseases",
+            "landmark": "$Landmark",
+            "location": "$HospitalLocation",
+            "userHosp": "$Hospitalname"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#HospitalLocation",
+      "dialog_node": "node_4_1594027704380"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595422718592",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1595422718749",
+      "previous_sibling": "handler_8_1595422718749"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1595422718592",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_8_1595422718749"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1593951527038",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_2_1594019436309",
+      "previous_sibling": "node_7_1594118695969"
+    },
+    {
+      "type": "frame",
+      "title": "PediatricHospitalLocation",
+      "parent": "node_8_1593951527038",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "route": "$Route",
+            "diseases": "$types_of_diseases",
+            "landmark": "$Landmark",
+            "location": "$HospitalLocation",
+            "userHosp": "$Hospitalname"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#HospitalLocation",
+      "dialog_node": "node_7_1594118695969"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595941007798",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1595941007805",
+      "previous_sibling": "handler_1_1595941007805"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595941007798",
+      "context": {
+        "Route": "@Route"
+      },
+      "conditions": "@Route",
+      "event_name": "input",
+      "dialog_node": "handler_1_1595941007805"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592319449548",
+      "disabled": true,
+      "dialog_node": "response_4_1593603662641"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1595848111363",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1595848111372",
+      "previous_sibling": "handler_5_1595848111372"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1595848111363",
+      "context": {
+        "Landmark": "@Landmark"
+      },
+      "conditions": "@Landmark",
+      "event_name": "input",
+      "dialog_node": "handler_5_1595848111372"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1595846860489",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1595846860531",
+      "previous_sibling": "handler_6_1595846860531"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1595846860489",
+      "context": {
+        "Landmark": "@Landmark"
+      },
+      "conditions": "@Landmark",
+      "event_name": "input",
+      "dialog_node": "handler_6_1595846860531"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1595941042025",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595941042031",
+      "previous_sibling": "handler_7_1595941042031"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1595941042025",
+      "context": {
+        "Route": "@Route"
+      },
+      "conditions": "@Route",
+      "event_name": "input",
+      "dialog_node": "handler_7_1595941042031"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595769221154",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595769221283",
+      "previous_sibling": "handler_10_1595769221283"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595769221154",
+      "context": {
+        "Hospitalname": "@Hospitalname"
+      },
+      "conditions": "@Hospitalname",
+      "event_name": "input",
+      "dialog_node": "handler_10_1595769221283"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1592630821362",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_7_1593602097998",
+      "previous_sibling": "response_8_1593602463225"
+    },
+    {
+      "type": "frame",
+      "title": "Types_of_Diseases",
+      "parent": "node_2_1592630821362",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@types_of_diseases",
+      "dialog_node": "node_3_1592630930841",
+      "previous_sibling": "slot_7_1593602097998"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms and first aid related to $types_of_diseases are"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592630821362",
+      "disabled": true,
+      "conditions": "@types_of_diseases",
+      "dialog_node": "response_8_1593602463225"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1593602686274",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1593602686281",
+      "previous_sibling": "handler_7_1593602686281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1593602686274",
+      "context": {
+        "HospitalLocation": "@HospitalLocation"
+      },
+      "conditions": "@HospitalLocation",
+      "event_name": "input",
+      "dialog_node": "handler_7_1593602686281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1595847908526",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1595847908536",
+      "previous_sibling": "handler_9_1595847908536"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1595847908526",
+      "context": {
+        "Hospitalname": "@Hospitalname"
+      },
+      "conditions": "@Hospitalname",
+      "event_name": "input",
+      "dialog_node": "handler_9_1595847908536"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1595419541087",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1595419541112",
+      "previous_sibling": "handler_10_1595419541112"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1595419541087",
+      "context": {
+        "HospitalLocation": "@HospitalLocation"
+      },
+      "conditions": "@HospitalLocation",
+      "event_name": "input",
+      "dialog_node": "handler_10_1595419541112"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1595846374767",
+      "variable": "$Route",
+      "dialog_node": "slot_10_1595941150056",
+      "previous_sibling": "slot_5_1595941130320"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1595846374767",
+      "variable": "$HospitalLocation",
+      "dialog_node": "slot_1_1595941121562",
+      "previous_sibling": "slot_5_1595941105200"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1595846374767",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1595928477186",
+      "previous_sibling": "response_3_1595928470712"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1595846374767",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_5_1595941105200",
+      "previous_sibling": "slot_8_1595846860489"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1595846374767",
+      "variable": "$Landmark",
+      "dialog_node": "slot_8_1595846860489",
+      "previous_sibling": "response_10_1595928479954"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1595846374767",
+      "conditions": "",
+      "dialog_node": "response_10_1595928479954",
+      "previous_sibling": "response_5_1595928477186"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1595846374767",
+      "variable": "$Hospitalname",
+      "dialog_node": "slot_5_1595941130320",
+      "previous_sibling": "slot_1_1595941121562"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_4.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595846374767",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_3_1595928470712"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594018321134",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594018321198",
+      "previous_sibling": "handler_2_1594018321198"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594018321134",
+      "context": {
+        "types_of_diseases": "@types_of_diseases"
+      },
+      "conditions": "@types_of_diseases",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594018321198"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1595941121562",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1595941121569",
+      "previous_sibling": "handler_8_1595941121569"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1595941121562",
+      "context": {
+        "HospitalLocation": "@HospitalLocation"
+      },
+      "conditions": "@HospitalLocation",
+      "event_name": "input",
+      "dialog_node": "handler_8_1595941121569"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595940976231",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1595940976240",
+      "previous_sibling": "handler_10_1595940976240"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595940976231",
+      "context": {
+        "Route": "@Route"
+      },
+      "conditions": "@Route",
+      "event_name": "input",
+      "dialog_node": "handler_10_1595940976240"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594118695969",
+      "variable": "$HospitalLocation",
+      "dialog_node": "slot_2_1594118848246",
+      "previous_sibling": "slot_8_1594118801536"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594118695969",
+      "variable": "$Route",
+      "dialog_node": "slot_10_1595941007798",
+      "previous_sibling": "slot_9_1595847929786"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594118695969",
+      "variable": "$types_of_diseases",
+      "dialog_node": "slot_8_1594118801536",
+      "previous_sibling": "response_10_1594118881993"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_7_1594118695969",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1594118881993",
+      "previous_sibling": "response_6_1594118876121"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594118695969",
+      "variable": "$Hospitalname",
+      "dialog_node": "slot_6_1595847908526",
+      "previous_sibling": "slot_2_1594118848246"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594118695969",
+      "variable": "$Landmark",
+      "dialog_node": "slot_9_1595847929786",
+      "previous_sibling": "slot_6_1595847908526"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The hospitals in $HospitalLocation that treat $types_of_diseases  are: $webhook_result_3.message  <br/> Can I display the <h2><u>directions</u></h2> of the hospital you choose? Say \"Proceed\" or \"Dont\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594118695969",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_6_1594118876121"
+    },
+    {
+      "type": "frame",
+      "title": "Route",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose any hospital from the above list "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_5"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@Route",
+      "dialog_node": "node_5_1595938136206",
+      "previous_sibling": "node_6_1592834228696"
+    },
+    {
+      "type": "frame",
+      "title": "Hospitalname",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please provide your nearest<h2><u> landmark </h2></u>\n"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Hospitalname",
+      "dialog_node": "node_7_1595768741037",
+      "previous_sibling": "node_5_1595938136206"
+    },
+    {
+      "type": "frame",
+      "title": "Pregnancy_Problems",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "PregnancyProblems": "$Pregnancy_Problems"
+          },
+          "result_variable": "webhook_result_2"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@types_of_diseases:(Pregnancy problems)",
+      "dialog_node": "node_10_1593951178026",
+      "previous_sibling": "node_9_1592319269561"
+    },
+    {
+      "type": "frame",
+      "title": "Landmark",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "route": "$Route",
+            "diseases": "$types_of_diseases",
+            "landmark": "$Landmark",
+            "location": "$HospitalLocation",
+            "userHosp": "$Hospitalname"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Landmark",
+      "dialog_node": "node_6_1595846374767",
+      "previous_sibling": "node_7_1595768741037"
+    },
+    {
+      "type": "frame",
+      "title": "Pediatric_Problems",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please let me know your <h2><u> current location </u></h2>, so that I can find you hospitals near you for $types_of_diseases"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@types_of_diseases:(Pediatric Problems)",
+      "dialog_node": "node_8_1593951527038",
+      "previous_sibling": "node_10_1593951178026"
+    },
+    {
+      "type": "frame",
+      "title": "General_Illness",
+      "output": {
+        "generic": [
+          {
+            "title": "What sought of medical problem are you going through?",
+            "options": [
+              {
+                "label": "Cardiac Arrest",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Stroke",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "cold",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Fever",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Flu",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Pnuemonia",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Diabetics",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "description": "Please provide  the sought of illness you are facing.I will let you know the symptoms and first aid related to your illness!",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#General_Illness",
+      "dialog_node": "node_2_1592630821362",
+      "previous_sibling": "node_8_1593951527038"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1592319449548",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "#General Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Day to you!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_9_1592319269561",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Location_Of_Hospital",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "route": "$Route",
+            "diseases": "$types_of_diseases",
+            "landmark": "$Landmark",
+            "location": "$HospitalLocation",
+            "userHosp": "$Hospitalname"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#HospitalLocation",
+      "dialog_node": "node_6_1592834228696",
+      "previous_sibling": "node_2_1592630821362"
+    },
+    {
+      "type": "standard",
+      "title": "#General Endings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for visiting the site"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "name": "$types_of_diseases"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_3_1592319449548",
+      "previous_sibling": "node_6_1595846374767"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello I am the Hospital recommend engine, I can help you with symptoms,first aid, general medicines,hospital recommendations.Which illness can I assist you with?Pregnancy \n Problems,General Illness,Pediatric Problems"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "HosptialSkill",
+  "language": "en",
+  "description": ""
+}
