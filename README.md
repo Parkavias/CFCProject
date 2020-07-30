@@ -4,13 +4,13 @@
 
 ## Contents
 
-1)[Short description](#short-description)
-2)[The architecture](#the-architecture)
-3)[Long description](#long-description)
-4)[Project roadmap](#project-roadmap)
-5)[Model](#model)<br/>
-6)[Voicebot output](#Output)<br/>
-7)[Built with](#built-with)
+1.[Short description](#short-description)
+2.[The architecture](#the-architecture)
+3.[Long description](#long-description)
+4.[Project roadmap](#project-roadmap)
+5.[Model](#model)<br/>
+6.[Voicebot output](#Output)<br/>
+7.[Built with](#built-with)
 
 
 ## Short description
